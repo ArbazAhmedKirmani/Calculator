@@ -2,9 +2,9 @@ const operator = ['+', '-', '/', '*']
 
 /**
  * switch case for handling brackets and produce final string
- * @param {string} data key press value 
- * @param {string} result latest final result string
- * @returns {string} value to be added in final string
+ * @param {string} data Key press value 
+ * @param {string} result Latest final result string
+ * @returns {string} Value to be added in final string
  */
 export const OperatorFunction = (data, result) => {
     switch (data) {
