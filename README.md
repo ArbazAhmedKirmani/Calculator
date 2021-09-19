@@ -4,7 +4,7 @@
 A React JS based Simple Calculator
 
 ### Run Online
-Open [http://ReactCalculator.netlify.com](http://localhost:3000) to view the project online.
+Open [https://reactcalculatorarbazahmed.netlify.app/](https://reactcalculatorarbazahmed.netlify.app/) to view the project online.
   
 ### Run Locally
 
@@ -36,15 +36,23 @@ This project is created to perform Simple Mathmatical Calculation.
 The main functions to perform by this calculator are Adding, Subtraction, Multiplication or Division
 
 #### 2. Overview
-It has the option for making simple equations by using brackets `()` and Operators `+ , - , * , /`
+It has the option for making simple equations by using brackets `()` and Operators `+ , - , x , /`
 
 In this project, we use `useState` for holding states.
 We use `eval()` method for calculation purpose.
 
 This calculator works fine with basic funcationality and can be modified easily by adding other funcationalities
+## Features
+
+- Simple Calculator
+- Perform Basic Arithmatic Operation `+ , - , x , /`
+- `()` can be used for making Simple Equation
+- Web Application
+
+  
 ## Demo
 
-![Blank App Screenshot](https://s9.gifyu.com/images/Calculator.gif)
+![Blank App Screenshot](https://s9.gifyu.com/images/Calculatorcd95ee8a5fd0621a.gif)
 
   
 ## FAQ
@@ -60,3 +68,12 @@ It also check the number of open and close brackets before calculation and throw
 
 #### What we use for calculation inside project code
 We use `eval()` javascript functionality to do the calculation. And for reducing the errors we use Loops and conditions.
+
+
+
+  
+## Author
+
+- [Syed Arbaz Ahmed](https://github.com/ArbazAhmedKirmani)
+
+  
