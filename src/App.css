@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+
+body {
+  background: whitesmoke;
+}
+
+* {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  top: 10%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  border: 10px solid rgb(29, 29, 29);
+  background: rgb(29, 29, 29);
+  padding: 0px;
+  border-radius: 3px;
+  height: 508px;
+  box-shadow: 0 0 10px 5px rgb(124, 124, 124);
+}
+
+input[type='text'] {
+  height: 95px;
+  width: 264px;
+  outline: none;
+  font-weight: 700;
+  background-color: rgb(36, 37, 37);
+  border: 0px;
+  color: #fff;
+  text-align: right;
+  font-size: 27px;
+  padding: 5px 15px;
+  margin: 3px;
+}
+
+.number-btn {
+  background: rgb(37, 37, 37);
+  outline: none;
+  width: Calc(25% - 6px);
+  height: 60px;
+  color: #fff;
+  border: 0px;
+  margin: 3px;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 0 2px #1d1d1d;
+}
+
+.symbol-btn {
+  background: #04543a;
+  outline: none;
+  width: Calc(25% - 6px);
+  height: 60px;
+  color: #fff;
+  border: 0px;
+  margin: 3px;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 0 2px #1d1d1d;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.small-result {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+  width: Calc(100% - 30px);
+  text-align: right;
+}
