@@ -83,7 +83,7 @@ const App = () => {
     }
 
     return (
-        <div className='container'>
+        <div id='container' className='container'>
             {/* Screen */}
             <div>
                 <input type='text' name='result' placeholder='0' value={result || 0} disabled={true} />
@@ -92,28 +92,28 @@ const App = () => {
             {/* \ Screen */}
 
             {/* Buttons */}
-            <Btn className='symbol-btn' title='C' name='C' onClick={clearText} />
-            <Btn className='symbol-btn' title='CE' name='CE' onClick={deleteText} />
-            <Btn className='symbol-btn' title='(' name='(' onClick={handleClick} />
-            <Btn className='symbol-btn' title=')' name=')' onClick={handleClick} />
-            <Btn className='symbol-btn' title='CE - Ans.' name='=' onClick={clearAnswer} style={{ width: 'Calc(40% - 6px)' }} />
-            <Btn className='symbol-btn' title='Ans.' name='=' onClick={addAnswer} style={{ width: 'Calc(35% - 6px)' }} />
-            <Btn className='symbol-btn' title='&divide;' name='/' onClick={handleClick} />
-            <Btn className='number-btn' title='7' name='7' onClick={handleClick} />
-            <Btn className='number-btn' title='8' name='8' onClick={handleClick} />
-            <Btn className='number-btn' title='9' name='9' onClick={handleClick} />
-            <Btn className='symbol-btn' title='x' name='*' onClick={handleClick} />
-            <Btn className='number-btn' title='4' name='4' onClick={handleClick} />
-            <Btn className='number-btn' title='5' name='5' onClick={handleClick} />
-            <Btn className='number-btn' title='6' name='6' onClick={handleClick} />
-            <Btn className='symbol-btn' title='-' name='-' onClick={handleClick} />
-            <Btn className='number-btn' title='1' name='1' onClick={handleClick} />
-            <Btn className='number-btn' title='2' name='2' onClick={handleClick} />
-            <Btn className='number-btn' title='3' name='3' onClick={handleClick} />
-            <Btn className='symbol-btn' title='+' name='+' onClick={handleClick} />
-            <Btn className='number-btn' title='0' name='0' onClick={handleClick} />
-            <Btn className='number-btn' title='.' name='.' onClick={handleClick} />
-            <Btn className='symbol-btn' title='=' name='=' onClick={handleEqual} style={{ width: 'Calc(50% - 6px)' }} />
+            <Btn id='C' className='symbol-btn' title='C' name='C' onClick={clearText} />
+            <Btn id='CE' className='symbol-btn' title='CE' name='CE' onClick={deleteText} />
+            <Btn id='(' className='symbol-btn' title='(' name='(' onClick={handleClick} />
+            <Btn id=')' className='symbol-btn' title=')' name=')' onClick={handleClick} />
+            <Btn id='cans' className='symbol-btn' title='CE - Ans.' name='cans' onClick={clearAnswer} style={{ width: 'Calc(40% - 6px)' }} />
+            <Btn id='ans' className='symbol-btn' title='Ans.' name='ans' onClick={addAnswer} style={{ width: 'Calc(35% - 6px)' }} />
+            <Btn id='/' className='symbol-btn' title='&divide;' name='/' onClick={handleClick} />
+            <Btn id='7' className='number-btn' title='7' name='7' onClick={handleClick} />
+            <Btn id='8' className='number-btn' title='8' name='8' onClick={handleClick} />
+            <Btn id='9' className='number-btn' title='9' name='9' onClick={handleClick} />
+            <Btn id='*' className='symbol-btn' title='x' name='*' onClick={handleClick} />
+            <Btn id='4' className='number-btn' title='4' name='4' onClick={handleClick} />
+            <Btn id='5' className='number-btn' title='5' name='5' onClick={handleClick} />
+            <Btn id='6' className='number-btn' title='6' name='6' onClick={handleClick} />
+            <Btn id='-' className='symbol-btn' title='-' name='-' onClick={handleClick} />
+            <Btn id='1' className='number-btn' title='1' name='1' onClick={handleClick} />
+            <Btn id='2' className='number-btn' title='2' name='2' onClick={handleClick} />
+            <Btn id='3' className='number-btn' title='3' name='3' onClick={handleClick} />
+            <Btn id='+' className='symbol-btn' title='+' name='+' onClick={handleClick} />
+            <Btn id='0' className='number-btn' title='0' name='0' onClick={handleClick} />
+            <Btn id='.' className='number-btn' title='.' name='.' onClick={handleClick} />
+            <Btn id='equal' className='symbol-btn' title='=' name='=' onClick={handleEqual} style={{ width: 'Calc(50% - 6px)' }} />
             {/* \ Buttons */}
         </div>
     );
