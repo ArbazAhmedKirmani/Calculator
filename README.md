@@ -60,6 +60,11 @@ This calculator works fine with basic funcationality and can be modified easily 
 ![Blank App Screenshot](https://s9.gifyu.com/images/Calculatorcd95ee8a5fd0621a.gif)
 
   
+## Automated Test Result 
+
+These automated test result are done using `Cypress`
+
+![Blank App Screenshot](https://s9.gifyu.com/images/TestResult.gif)
 ## FAQ
 
 #### What if we enter a wrong Equation?
