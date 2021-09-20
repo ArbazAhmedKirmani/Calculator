@@ -6,6 +6,7 @@ A React JS based Simple Calculator
 ### Run Online
 Open [https://reactcalculatorarbazahmed.netlify.app/](https://reactcalculatorarbazahmed.netlify.app/) to view the project online.
   
+
 ### Run Locally
 
 Clone the project
@@ -31,6 +32,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Documentation
 
+### JS Documentation
+Visit [JS Documentation](https://distracted-swanson-d747f2.netlify.app/index.html) here 
+
+### Document
 #### 1. Introduction
 This project is created to perform Simple Mathmatical Calculation. 
 The main functions to perform by this calculator are Adding, Subtraction, Multiplication or Division
